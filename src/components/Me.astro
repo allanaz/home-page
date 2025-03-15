@@ -1,0 +1,31 @@
+---
+import { Image } from "astro:assets";
+import profilePhoto from "../assets/agarciazychBio.jpg";
+---
+
+<div id="container" class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+	<div id="hero" class="max-w-4xl">
+		<h1 class="p-2">
+			Hi, I'm Allan Garcia-Zych
+		</h1>
+		<p class="p-2">
+			I'm a software engineer with over 4 years of experience building tools used by progressive organizations and democratic campaigns.
+		</p>
+		<p class="p-2">
+			Recently I've been particularly focused on payment processing, helping my former colleagues at NGP VAN improve their payment processing infrastructure with Stripe, and adding new payment methods like Venmo and PayPal. Other projects included advocacy tools facilitating public comments on proposed government regulations, a tool for customizing the appearance of supporter facing donation forms, and a refactoring of email unsubscribe workflows.
+		</p>
+		<p class="p-2">
+			Before that, I was a student at MIT, majoring in Physics and Computer Science and Engineering. When I wasn't studying, I worked with a congressional campaign, built telescope control software, and developed educational games for middle school students. I was also involved in running the largest undergraduate technology club on campus, in particular leading a research competition for high school students.
+
+			I grew up in Oceanside, CA, and currently live in Washington, DC. I enjoy photography, reading, and traveling as often as I can.
+		</p>
+
+	</div>
+	<div id="profilePhoto">
+		<Image src={profilePhoto} alt="A Photo of me" />
+	</div>
+
+</div>
+
+<style>
+</style>

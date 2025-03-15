@@ -1,12 +1,21 @@
 ---
 import astroLogo from '../assets/astro.svg';
 import background from '../assets/background.svg';
+import Card from './Card.astro';
+import profilePhoto from "../assets/agarciazychBio.jpg";
+
 ---
 
 <div id="container">
 	<h3>PROJECTS AND EXPERIENCE</h3>
 	<div>
-		Div for NGP VAN
+		<Card
+			title="Card Title"
+			description="This is a description of the card content. It can be as long as needed."
+			imageUrl={profilePhoto}
+  			altText="Description of image"
+			link='https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11447/114479K/The-wide-field-infrared-transient-explorer-WINTER/10.1117/12.2561210.short'
+		/>
 	</div>
 	<div>
 		Div for Telescope software
